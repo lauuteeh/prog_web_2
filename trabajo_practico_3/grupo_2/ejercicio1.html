@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	
+
+	<body>
+			<form action="formulario.php" method="post" enctype="application/x-www-form-urlencoded" name="formulario">
+
+			<p>Nombre: </p><input type="text" name="nombre"></text>
+			
+			<p>Apellido: </p><input type="text" name="apellido"></text>
+			
+			<p>DNI: </p><input type="text" name="dni"></text>
+			
+			<p>Email: </p><input type="text" name="email"></text>
+			
+			<p>Sexo: </p><input type="radio" name="sexo" value="masculino">Masculino</text> <br>
+						 <input type="radio" name="sexo" value="femenino">Femenino</text> <br>
+
+			<p>Fecha de nacimiento: </p><input type="text" name="nacimiento"></text>
+
+			<p>Documentacion Presentada: </p><input type="checkbox" name="documentacionPres[]" value="DNI">DNI <br>
+						 					 <input type="checkbox" name="documentacionPres[]" value="Partida de nacimiento"/>Partida de nacimiento <br>
+						 					 <input type="checkbox" name="documentacionPres[]" value="Libreta de Nacimiento"/>Libreta  de nacimiento <br>
+						 					 <input type="checkbox" name="documentacionPres[]" value="Certificado de Conviviencia"/>Certificado de convivencia <br>
+			<br>
+			<input type="submit"></input>
+			<input type="reset"></input>
+
+
+
+
+
+			</form>
+
+
+
+	
+	</body>
+</html>
