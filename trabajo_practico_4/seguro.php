@@ -5,14 +5,14 @@
 	if(!isset($_SESSION["log"])){
 		
 		session_destroy();
-		header("location:login.php");
+		header("location:denegado.php");
 
 	}
 
 	if(!$_SESSION["log"]){
 		
 		session_destroy();
-		header("location:login.php");
+		header("location:denegado.php");
 
 	}
 
