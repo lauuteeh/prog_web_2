@@ -10,27 +10,20 @@
   z-index: 1;
   background: #FFFFFF;
   max-width: 360px;
+  max-height: 200px;
   margin: 0 auto 100px;
-  padding: 45px;
+
+  padding-top: 30px;
+  padding-bottom:90px;
+  padding-right: 50px;
+  padding-left: 50px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-p {
- 
-  font-family: "Roboto", sans-serif;
-   font-size: 15px;
-   float:left;
-   margin: 15px 40px 25px;
-
-}
-
-.checkbox{
-  float:left;
-    margin: 17px 10px 25px;
 
 
-}
+
 
 .imagen{
   

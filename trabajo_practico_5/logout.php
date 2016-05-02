@@ -5,7 +5,8 @@
 	{
 		session_destroy();
 		
-		header('refresh:2; url=http://localhost:8080/ejercicios/trabajo_practico_4/index.php'); 
+		
+		header('refresh:2; url=http://localhost/ejercicios/trabajo_practico_5/index.php'); 
 		echo "Redireccionando al login...";
 		
 		echo "<br>";

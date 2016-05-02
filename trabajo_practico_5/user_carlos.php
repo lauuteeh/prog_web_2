@@ -10,13 +10,11 @@
 	require_once("seguro.php");
 	
 
-	?>
-<div class="form">
-	<h1>Bienvenido Carlos !</h1>
-	<div class="imagen">
-		<img src='carlos_bala.jpg' width='300px' height='200px'>
-	</div>
 
+	?>
+
+<div class="form">
+	<h1>Bienvenido <?php if(isset($_COOKIE["mostrar_usuario"]))echo $_COOKIE["mostrar_usuario"]; ?></h1>
 	<form action="logout.php" method="post" name="logout"> 
 	
 	<input type="submit" name="logout" value="Cerrar sesion" class="enviar"></input>
